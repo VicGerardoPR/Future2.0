@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUTURE | Puerto Rico Cannabis Dispensary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <!-- Video Background -->
+  <video
+    id="hero-video"
+    class="video-bg"
+    preload="auto"
+    playsinline
+    autoplay
+    muted
+    loop
+  >
+    <source src="/video.mp4" type="video/mp4">
+  </video>
+
+  <!-- Age Gate Overlay -->
+  <div id="age-gate" class="age-gate">
+    <div class="age-gate-content">
+      <img src="/logo.png" alt="FUTURE" class="age-logo">
+      <h1>+21 AÑOS</h1>
+      <p>Debes ser mayor de 21 años para entrar a este sitio</p>
+      <div class="age-buttons">
+        <button id="age-enter" class="btn-primary">Soy mayor de 21</button>
+        <button id="age-exit" class="btn-secondary">Salir</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Logo -->
+  <header class="main-header">
+    <div class="header-container">
+      <img src="/logo.png" alt="FUTURE Logo" class="floating-logo">
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content">
+    <!-- Hero Section -->
+    <section class="section hero-section" data-section="0">
+      <div class="content-wrapper">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>PUERTO RICO</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">FUTURE</span>
+          <span class="title-subtitle">HEALTH DISPENSARY</span>
+        </h1>
+        <p class="hero-subtitle">HACIENDO LA HISTORIA</p>
+        <div class="scroll-indicator">
+          <span>SCROLL</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section - Isabela -->
+    <section class="section product-section" data-section="1">
+      <div class="content-wrapper">
+        <div class="product-card glass-card">
+          <div class="product-image-main">
+            <img src="/strains/isabela.png" alt="Isabela Premium">
+          </div>
+          <div class="product-badge">FUTURE LIMITED SERIES</div>
+          <h2 class="product-name">ISABELA</h2>
+          <div class="product-meta">
+            <span class="meta-tag hybrid">SATIVA</span>
+            <span class="meta-tag premium">CULTIVO LOCAL</span>
+          </div>
+          <p class="product-description">
+            Experimenta los terpenos frutales más puros de Puerto Rico. Elevación energética, claridad mental y suavidad inigualable. El corazón tropical de nuestra isla.
+          </p>
+          <div class="product-stats">
+            <div class="stat">
+              <span class="stat-value">HIGH</span>
+              <span class="stat-label">Elevación</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">CLEAN</span>
+              <span class="stat-label">Claridad</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">🌴🍋🔥</span>
+              <span class="stat-label">Terpenos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="section collection-section" data-section="2">
+      <div class="content-wrapper">
+        <h2 class="section-title">NUESTRA COLECCIÓN</h2>
+        <div class="collection-grid">
+          <!-- Isabela -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/isabela.png" alt="Isabela">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type sativa">SATIVA</div>
+              <h3>ISABELA</h3>
+              <p>The tropical heart of Puerto Rico.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Soulshine -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/soulshine.png" alt="Soulshine">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type sativa">SATIVA</div>
+              <h3>SOULSHINE</h3>
+              <p>Pure sunshine captured in every bud.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Pink Runtz -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/pink_runtz.png" alt="Pink Runtz">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type hybrid">HYBRID</div>
+              <h3>PINK RUNTZ</h3>
+              <p>Sweet candy notes with an intense body high.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Kush Cake -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/kush_cake.png" alt="Kush Cake">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type indica">INDICA</div>
+              <h3>KUSH CAKE</h3>
+              <p>Dense, frosty, and incredibly powerful.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Permanent Marker -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/permanent_marker.png" alt="Permanent Marker">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type indica">INDICA</div>
+              <h3>PERMANENT MARKER</h3>
+              <p>Intense dark tones with heavy-hitting potency.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Dosi Dos -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/dosi_dos.png" alt="Dosi Dos">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type hybrid">HYBRID</div>
+              <h3>DOSI DOS</h3>
+              <p>Lime green buds dripping in resin.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+          <!-- Purple Fire -->
+          <div class="collection-card glass-card">
+            <div class="card-image">
+              <img src="/strains/purple_fire.png" alt="Purple Fire">
+            </div>
+            <div class="card-content">
+              <div class="card-glow"></div>
+              <div class="strain-type indica">INDICA</div>
+              <h3>PURPLE FIRE</h3>
+              <p>A fiery mix of purple hues and orange stigmas.</p>
+              <div class="card-tag">CULTIVO LOCAL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers Section -->
+    <!-- Offers Section -->
+    <section class="section offers-section" data-section="3">
+      <div class="content-wrapper">
+        <h2 class="section-title">NUESTRAS OFERTAS</h2>
+        <div class="offers-grid">
+          <!-- Menú de Flores -->
+          <div class="offer-card glass-card flores-offer">
+            <div class="offer-image offer-image--full">
+              <img src="/offers/ofertaflores.jpeg" alt="Menú de Flores - Future Health Dispensary">
+            </div>
+          </div>
+          <!-- Shake -->
+          <div class="offer-card glass-card">
+            <div class="offer-image offer-image--full">
+              <img src="/offers/Shake.jpeg" alt="Shake - Future Health Dispensary">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conócenos Section -->
+    <section class="section conocenos-section" data-section="4">
+      <div class="content-wrapper">
+        <h2 class="section-title">CONÓCENOS</h2>
+        <div class="conocenos-grid">
+          <div class="conocenos-text">
+            <p>Future Health Dispensary es una empresa puertorriqueña comprometida con la excelencia y la innovación en el cultivo y distribución de cannabis medicinal y recreativo. Nuestro equipo combina conocimientos de agronomía avanzada, prácticas sostenibles y una pasión por ofrecer productos de la más alta calidad a nuestra comunidad.</p>
+          </div>
+          <div class="conocenos-image">
+            <img src="/images/cultivo_salud.png" alt="Cultivos de Salud en Isabela, Puerto Rico" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Card Section -->
+    <section class="section map-section" data-section="5">
+      <div class="content-wrapper">
+        <div class="map-card glass-card">
+          <h2 class="section-title">Cómo llegar a Future Dispensary</h2>
+          <div class="map-image">
+            <img src="/images/future-dispensary-location.jpg" alt="Localización de Future Health Dispensary">
+          </div>
+          <a href="https://share.google/r0EDPgy0Pbd2Vvj9Y" target="_blank" class="map-link">Ver ruta en Google Maps</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="section footer-section" data-section="6">
+      <div class="content-wrapper">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h2>FUTURE</h2>
+            <p>HEALTH DISPENSARY</p>
+          </div>
+          <div class="footer-info">
+            <div class="license">
+              <span class="license-label">LICENCIAS</span>
+              <span class="license-number">CM-2023-502 | 1319102-0017</span>
+            </div>
+            <p class="location">📍 San Juan, Puerto Rico</p>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <div class="warning-box">
+            <span class="warning-icon">⚠️</span>
+            <p>
+              Solo para uso medicinal por pacientes autorizados. El uso de la marihuana por personas no autorizadas es ilegal y penalizado por ley. La marihuana puede ser adictiva y afectar tu salud. Manténgase fuera del alcance de los niños. SUSTANCIA CONTROLADA.
+            </p>
+          </div>
+          <p class="legal-text">
+            &copy; 2024 FUTURE HEALTH DISPENSARY. Todos los derechos reservados.
+          </p>
+          <div class="footer-bottom-links">
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="https://web-future-nu.vercel.app/" target="_blank">Visítanos</a>
+          </div>
+          <p class="credits">Created By Arcano Intelligence</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Loading Screen -->
+  <div id="loading" class="loading-screen">
+    <div class="loading-content">
+      <div class="loading-spinner"></div>
+      <p>Cargando experiencia...</p>
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
