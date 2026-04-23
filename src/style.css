@@ -674,7 +674,7 @@ h1, h2, h3 {
   flex-direction: column;
   overflow: hidden;
   transition: transform var(--transition-medium);
-  width: 800px; /* enlarged more to see prices */
+  width: 1000px; /* Make it large and central */
   max-width: 100%;
 }
 
@@ -686,9 +686,7 @@ h1, h2, h3 {
   width: 100%;
   overflow: hidden;
   border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .offer-image--full img {
@@ -706,13 +704,12 @@ h1, h2, h3 {
 
 /* Specific zoom for Flores offer */
 .flores-offer .offer-image--full img {
-  transform: scale(1.35); /* more zoom to highlight prices */
+  transform: scale(1.15); /* zoom to highlight prices */
   transform-origin: center center;
-  object-position: center center;
 }
 
 .flores-offer .offer-image--full img:hover {
-  transform: scale(1.42);
+  transform: scale(1.2);
 }
 
 /* Map Section */
